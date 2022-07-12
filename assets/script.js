@@ -168,7 +168,7 @@ const handleEvent = () => {
 
     setTimeout(() => {
       timeEnd.innerHTML = formatTime(audio.duration);
-    }, 800);
+    }, 300);
   };
   volume.oninput = () => {
     audio.volume = volume.value / 100;

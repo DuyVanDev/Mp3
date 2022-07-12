@@ -36,7 +36,7 @@ html {
   width: 240px;
   flex-shrink: 0;
   height: 100vh;
-  background-color: #231b2e;
+  background-color: #020c4a;
   z-index: 1;
   position: fixed;
   top: 0;
@@ -45,9 +45,8 @@ html {
   margin-bottom: 30px;
 }
 
-.side-bar .mp3-logo {
-  background: url("https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg")
-    50% / contain no-repeat;
+.side-bar .logo img {
+ 
   width: 120px;
   height: 40px;
   margin-left: 30px;
@@ -179,7 +178,8 @@ html::-webkit-scrollbar {
   left: 0;
   width: 240px;
   color: white;
-  background-color: #231b2e;
+  background-color: #020c4a;
+  
   z-index: 1;
 }
 
@@ -223,7 +223,7 @@ html::-webkit-scrollbar {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-  background-color: #170f23;
+  background-color: #020c4a;
   min-width: 660px;
   background-size: cover;
 }
@@ -304,6 +304,7 @@ html::-webkit-scrollbar {
   position: relative;
   display: flex;
   justify-content: center;
+  background-color: #020c4a;
 }
 
 .content-left {
@@ -519,7 +520,7 @@ html::-webkit-scrollbar {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #120c1c;
+  background-color: #020c4a;
   height: 90px;
   z-index: 2;
   display: flex;
