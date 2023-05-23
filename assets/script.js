@@ -191,6 +191,7 @@ const loadCurrentSong = () => {
 };
 
 const start = () => {
+  seekBar.value = 0;
   renderItemSong();
   loadCurrentSong();
   handleEvent();
