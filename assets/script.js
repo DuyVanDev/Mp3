@@ -17,13 +17,9 @@ const btnlogin = document.querySelector(".btn-login");
 const closeTicked = document.querySelector(".close-ticked");
 const bars = document.querySelector(".bars");
 
-btnlogin.onclick = () => {
-  document.querySelector(".modal-login").classList.add("active");
-};
 
-closeTicked.onclick = () => {
-  document.querySelector(".modal-login").classList.remove("active");
-};
+
+
 let lengthMusic;
 let isPlaying = false;
 let currentMusic = 0;
