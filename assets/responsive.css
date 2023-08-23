@@ -1,42 +1,119 @@
 @media only screen and (min-width: 980px) and (max-width: 1200px) {
-    .content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .content-left {
-        position: static;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 700px;
-        margin-top: 100px;
-    }
-    .content-right {
-        position: static;
-        max-width: 100%;
-        margin-left: 0;
-        padding : 0 20px;
-        margin-top: 30px;
-    }
-    .side-bar {
-        /* display: none; */
-    }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-left {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin-top: 100px;
+  }
+  .content-right {
+    position: static;
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .side-bar {
+    /* display: none; */
+  }
 
-    .container .header {
-        display: flex;
-        gap : 30px;
-    }
-    .container .header input {
-        
-    }
-    
+  .container .header {
+    display: flex;
+    gap: 30px;
+  }
+  .container .header input {
+  }
 
-    .container .header .tools i {
-        /* display : none */
-    }
-    .container  .bars {
-        display: block;
-    }
+  .container .header .tools i {
+    /* display : none */
+  }
+  .container .bars {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .main {
+    position: static;
+    display: flex;
+  }
+  .side-bar {
+    position: static;
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .header {
+    left: 0;
+  }
+
+  .container .header .tools {
+    display: none;
+  }
+  .content {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px 0 20px;
+  }
+  .content-left {
+    position: static;
+  }
+  .content-right {
+    margin: 0;
+  }
+  .container .header .control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 100%;
+  }
+
+  .container .header .search input {
+    min-width: 30%;
+  }
+
+  .player-controls {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+  }
+
+  .player-controls .controls-left {
+    display: none;
+  }
+
+  .player-controls .controls-right {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .controls-center .center-bottom .song-slider {
+    width: 400px;
+  }
 }
